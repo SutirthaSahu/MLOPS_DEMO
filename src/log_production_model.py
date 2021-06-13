@@ -49,7 +49,6 @@ def log_production_model(config_path):
 
     joblib.dump(loaded_model, model_path)
 
-
 if __name__ == '__main__':
     args = argparse.ArgumentParser()
     args.add_argument("--config", default="params.yaml")
